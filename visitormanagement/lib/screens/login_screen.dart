@@ -35,14 +35,13 @@ class LoginScreen extends StatelessWidget {
                 fontSize: 18,
               ),
               kHeight30,
-              // Username TextField
               CustomTextFormField(
                 hintText: "Username",
                 controller: usernameController,
               ),
 
               kHeight15,
-              // Password TextField
+
               CustomTextFormField(
                 hintText: "Password",
                 isPassword: true,
@@ -70,10 +69,6 @@ class LoginScreen extends StatelessWidget {
                               passwordController.text.trim(),
                             );
                           },
-                    //  () {
-                    //   // Login functionality
-                    //   Get.offNamed('/vistorForm');
-                    // },
                     child: controller.isLoading.value
                         ? const CircularProgressIndicator(
                             color: kBackgroundColor,
