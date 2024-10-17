@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23301120438",
+    "project_id": "visitor-management-ba33c",
+    "storage_bucket": "visitor-management-ba33c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23301120438:android:326a9f8def63f55edee117",
+        "android_client_info": {
+          "package_name": "com.example.visitormanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1iPSMmdcI4RDPOKQj_4XI9_nVSs8lnqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
